@@ -19,7 +19,7 @@ module.exports.getQst = async (req, res) => {
 
         const response = {
             id: question._id,
-            title: question.title,
+            title: question.text,
             options: populatedOptions,
         };
         res.json(response);
@@ -33,7 +33,7 @@ module.exports.createQst = (req, res) => {
     Questions.create({ text })
         .then(result => {
             if (result) {
-                return res.send('Created Successfully');
+                return res.send('Question Created Successfully');
             }
             res.send('Could not create question');
         })
