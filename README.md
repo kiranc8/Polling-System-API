@@ -30,7 +30,7 @@ MongoDB (with Mongoose)
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/polling-system-api.git
+   git clone https://github.com/kiranc8/Polling-System-API.git
    cd polling-system-api
 2. Install the required dependencies
    ```bash
