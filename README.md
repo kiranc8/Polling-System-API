@@ -23,7 +23,7 @@ MongoDB (with Mongoose)
 - DELETE /questions/:id/delete: Delete a question and its associated options
 - DELETE /options/:id/delete: Delete an option
 - POST /options/:id/add_vote: Increment the vote count for an option
-- GET /questions/:id: View a question and its options
+- GET /questions/:id View a question and its options
 
 ## Getting started
 
